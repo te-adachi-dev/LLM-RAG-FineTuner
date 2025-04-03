@@ -1,0 +1,15 @@
+# 仮想環境を無視
+test_env/
+llm_venv/
+
+# 学習済みモデルなどの成果物を無視
+results/
+tokenized_data/
+
+# FAISSインデックスなどの大きなファイル
+faiss_index.pkl
+
+# Pythonキャッシュファイル
+__pycache__/
+*.pyc
+
